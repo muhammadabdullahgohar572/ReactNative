@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 import Calculator from "./Calulater";
+import BasicComponent from "./Logm";
+import Api from "./From";
+import Api1 from "./Api1";
 
 export default function App() {
   const [value, setValue] = useState("");
@@ -21,7 +24,21 @@ export default function App() {
   };
   return (
     <>
-      <View style={{ padding: 40, marginTop: 20 }}>
+
+<Api1/>
+
+{/* <Api/> */}
+
+
+
+{/* <BasicComponent/> */}
+
+
+
+
+
+
+      {/* <View style={{ padding: 40, marginTop: 20 }}>
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           <View style={{ borderWidth: 2, borderColor: "black" }}>
             <TextInput
@@ -57,7 +74,7 @@ export default function App() {
             </View>
           ))}
         </View>
-      </View>
+      </View> */}
 
 
        {/* <Calculator/> */}
